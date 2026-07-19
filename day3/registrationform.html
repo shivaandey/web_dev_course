@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://images.pexels.com/photos/11035543/pexels-photo-11035543.jpeg" alt="Logo" length="120" width="120">
+    <h1>Registration Form Enrolling Internship</h1>
+    <hr>
+    <form action="backendApiAdress" method="POST">
+        <label>First Name:</label>
+        <input type="text" placeholder="First name" required><br>
+        <label>Last Name:</label>
+        <input type="text" placeholder="Last name" required><br>
+        <label>Email ID:</label>
+        <input type="email" placeholder="Enter your email" required><br>
+        <label>usertype:</label>
+        <select name="usertype" required>
+            <option value="">Select User Type</option>
+            <option value="Under Graduate">Student</option>
+            <option value="Post Graduate">Faculty</option>
+        </select><br>
+        <select name="course" required>
+            <option value="">Select Course</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="M.Tech">M.Tech</option>
+            <option value="MBA">MBA</option>
+            <option value="PhD">PhD</option>
+        </select><br>
+        <select name="branch" required>
+            <option value="">Select Branch</option>
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+            <option value="MECH">MECH</option>
+        </select><br>
+        <label>College Name:</label>
+        <input type="text" placeholder="Enter your college name" required><br>
+        <label>Password:</label>
+        <input type="password" placeholder="Enter your password" required><br>
+        <label></label>
+        <label>Confirm Password:</label>
+        <input type="password" placeholder="Confirm your password" required><br>
+        <label>Phone:</label>
+        <input type="tel" pattern="[0-9]{10}" placeholder="10-digit number" required><br>
+        <label>Age:</label>
+        <input type="number" min="18" max="100" step="1" required><br>
+        <label>Gender</label>
+        <input type="radio" name="gender" value="male" required>
+        <label>Male</label>
+        <input type="radio" name="gender" value="female" required>
+        <label>Female</label><br>
+        <label>Permanent Address:</label><br>
+        <textarea rows="4" cols="50" placeholder="Enter your permanent address" required></textarea><br>
+        <label>Present Address:</label><br>
+        <textarea rows="4" cols="50" placeholder="Enter your present address" required></textarea><br>
+        <input type="checkbox" required>
+        <label> I agree to the terms and conditions</label><br>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
