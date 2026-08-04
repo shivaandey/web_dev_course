@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //function - help us to do a specific task
+        function greet(){
+            //body-Instruction/task
+            console.log("Good evening user")
+
+        }
+        greet()
+        //function with paarmeter(parameter/arguement)
+        function greet1(name){
+            console.log("good evening "+name)
+        }
+        greet1("Shiva")
+        //function with return 
+        function totalbill(price,quantity){
+            return price*quantity // to give something back
+        }
+        let result=totalbill(100,2)
+        console.log(result)
+
+        //arrow function=> logic in one single line
+        let xyz=()=> {
+            console.log("Hello I am Arrow function")
+        }
+        xyz()
+    </script>
+</body>
+</html>

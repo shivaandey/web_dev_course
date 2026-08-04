@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //data type - data type is the type of data that a variable can hold
+        //string - a sequence of characters(any thing we write in "text" or 'text')
+        let email="abc@gmail.com"
+        let password="123456"
+        //InBuild Method-typeof() Helps us to check the data type
+        console.log(typeof(email))
+        console.log(typeof(password))
+        //2. Numbers- +ve and -ve and decimal
+        //numbers should be written directly
+        let temp=-22.055
+        console.log(typeof(temp))
+        //3. Boolean- true or false
+        let loginstatus=true
+        let netflixsub="false"//this is in dubble quotes
+        console.log(typeof(loginstatus))//boolean
+        console.log(typeof(netflixsub))//string
+        //4. Undefined- when you dont assign any value
+        let discount
+        console.log(typeof(discount))
+        //5. Null- means nothing
+        let score=null
+        console.log(typeof(score)) //output is object-due to Bug in js.
+        //multipple data
+        // array - Helps us to store multiple data and it will store diff types of data
+        //symbol-[]
+        // index starts with 0
+        let students=["Shiva","snehitha","Prasad","Rahul",1234,true]
+        console.log(students)
+        console.log(students[2])
+        console.log(students[4])
+        //object-collection of data
+        //symbol-{}
+        //key:value pair
+        let employee1={
+            name:"Shiva",
+            email:"shiva@gmail.com",
+            department:"IT",
+            loginstatus:false
+
+        }
+        console.log(employee1)
+        console.log(employee1.name)
+    </script>
+</body>
+</html>

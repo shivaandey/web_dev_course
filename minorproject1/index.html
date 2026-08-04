@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Personal Portfolio</title>
+    
+    <!-- 1. Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- 2. External CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 3. Internal CSS (<style> tag) -->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+        .top-part {
+            background: linear-gradient(135deg, #0d6efd, #6610f2);
+            color: rgb(233, 222, 222);
+            padding: 80px 0;
+            text-align: center;
+        }
+        .highlight-text {
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header / Hero Section (Uses Internal CSS class .custom-hero) -->
+    <header class="top-part">
+        <div class="container">
+            <!-- 4. Inline CSS (style="..." attribute applied directly) -->
+            <h1 >
+                Hello, I'm <span class="text-warning">Shiva</span>
+            </h1>
+            <p class="lead mb-4">A Passionate Web Developer </p>
+            <a href="projects.html" class="btn btn-light btn-lg text-primary fw-bold">View My Work</a>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="container my-5">
+        <section class="row align-items-center">
+            <div class="col-md-6">
+                <h2>Welcome to My Portfolio Website</h2>
+                <p class="text-muted">
+                    This multi-page personal portfolio showcases my journey, technical skills, and completed projects. 
+                    It integrates Bootstrap, External CSS, Internal CSS, and Inline CSS.
+                </p>
+                <a href="about.html" class="btn btn-outline-primary">Learn More About Me</a>
+            </div>
+            
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 Shiva. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
